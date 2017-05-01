@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#c10818">
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="430dp"
+        android:id="@+id/framelayout"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:id="@+id/tempbutton"
+            android:layout_gravity="left|top"
+            android:contentDescription="@string/tempbutton"
+            android:background="#c10818" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:id="@+id/lengthbutton"
+            android:layout_gravity="center_horizontal|top"
+            android:contentDescription="@string/tempbutton"
+            android:background="#c10818" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:id="@+id/weightbutton"
+            android:layout_gravity="right|top"
+            android:contentDescription="@string/tempbutton"
+            android:background="#c10818" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:id="@+id/pressurebutton"
+            android:layout_gravity="left|center_vertical"
+            android:contentDescription="@string/tempbutton"
+            android:background="#c10818" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:id="@+id/forcebutton"
+            android:layout_gravity="center"
+            android:contentDescription="@string/tempbutton"
+            android:background="#c10818" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:id="@+id/powerbutton"
+            android:layout_gravity="right|center_vertical"
+            android:contentDescription="@string/tempbutton"
+            android:background="#c10818" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:id="@+id/energybutton"
+            android:layout_gravity="left|bottom"
+            android:contentDescription="@string/tempbutton"
+            android:background="#c10818" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:id="@+id/timebutton"
+            android:layout_gravity="center_horizontal|bottom"
+            android:contentDescription="@string/tempbutton"
+            android:background="#c10818" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:id="@+id/settingbutton"
+            android:layout_gravity="right|bottom"
+            android:contentDescription="@string/tempbutton"
+            android:background="#c10818" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>

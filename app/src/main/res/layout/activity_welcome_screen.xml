@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.can.unitter.welcome_screen"
+    android:background="#C10818"
+    android:id="@+id/main_layout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/welcomeText_On_Welcome_Page"
+        android:id="@+id/middleTitle"
+        android:textStyle="bold"
+        android:textColor="#fffbfbff"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Tap_teller_welcome_page"
+        android:id="@+id/tellerTittle"
+        android:textStyle="bold"
+        android:textColor="#fffffefe"
+        android:textSize="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/iconmain"
+        android:contentDescription="@string/icon_main_welcome_page"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/middleTitle"
+        android:layout_alignRight="@+id/language"
+        android:layout_alignEnd="@+id/language"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"/>
+
+    <Spinner style="@style/languageSpinner"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/language"
+        android:textStyle="bold"
+        android:layout_above="@+id/tellerTittle"
+        android:layout_marginBottom="59dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/select_lang_text_welcome_page"
+        android:id="@+id/downTitle"
+        android:textStyle="bold"
+        android:textColor="#fff8f6ff"
+        android:layout_above="@+id/language"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/teller_welcome_page"
+        android:id="@+id/upperTitle"
+        android:textColor="#fffffbff"
+        android:textSize="15dp"
+        android:layout_below="@+id/middleTitle"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+</RelativeLayout>

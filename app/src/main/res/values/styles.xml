@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style parent="@android:style/Widget.Spinner" name="SpinnerAsEditText">
+
+        <item name="android:background">@drawable/gradient_spinner</item>
+
+    </style>
+
+    <style parent="@android:style/Widget.EditText" name="editTextAsEdit">
+
+        <item name="android:background">@drawable/rounded_edittext</item>
+
+    </style>
+
+    <style parent="@android:style/Widget.EditText" name="languageSpinner">
+
+        <item name="android:background">@drawable/language_spinner</item>
+
+    </style>
+
+
+</resources>

@@ -1,0 +1,308 @@
+<resources>
+    <string name="app_name">Unitter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome_screen">welcome_screen</string>
+    <string name="welcomeText_On_Welcome_Page">Welcome to Unitter</string>
+    <string name="icon_main_welcome_page">iconOnTheWelcomePage</string>
+    <string name="teller_welcome_page">You can convert simple units with UNITTER.</string>
+    <string name="teller2_welcome_page">Uniter is completely free and contains NO advertising.</string>
+    <string name="select_lang_text_welcome_page">Select Language</string>
+    <string name="Tap_teller_welcome_page">Double tap to continue</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_converter_to_choice">converter_to_choice</string>
+    <string name="unit">UNIT</string>
+    <string name="tempbutton">tempbutton</string>
+
+
+    <string-array name = "fromlength">
+
+        <item> Centimeter </item>
+        <item> Feet </item>
+        <item> Inch</item>
+        <item> Kilometer</item>
+        <item> Meter</item>
+        <item> Mile</item>
+        <item> Millimeter</item>
+        <item> Yard</item>
+
+    </string-array>
+
+    <string-array name = "tolength">
+
+        <item> Centimeter </item>
+        <item> Feet </item>
+        <item> Inch</item>
+        <item> Kilometer</item>
+        <item> Meter</item>
+        <item> Mile</item>
+        <item> Millimeter</item>
+        <item> Yard</item>
+
+    </string-array>
+    <string-array name = "fromtime">
+
+        <item> Nanosecond </item>
+        <item> Microsecond</item>
+        <item> Millisecond</item>
+        <item>Second </item>
+        <item>Minute </item>
+        <item> Quadrans </item>
+        <item> Hour</item>
+        <item> Day</item>
+        <item> Week</item>
+        <item> Month[30Days]</item>
+        <item> Year</item>
+        <item> Century</item>
+        <item> Millennium</item>
+
+    </string-array>
+
+    <string-array name = "totime">
+
+        <item> Nanosecond </item>
+        <item> Microsecond</item>
+        <item> Millisecond</item>
+        <item>Second </item>
+        <item>Minute </item>
+        <item> Quadrans </item>
+        <item> Hour</item>
+        <item> Day</item>
+        <item> Week</item>
+        <item> Month[30Days]</item>
+        <item> Year</item>
+        <item> Century</item>
+        <item> Millennium</item>
+
+    </string-array>
+    <string-array name = "fromtemp">
+
+        <item> Fahrenheit </item>
+        <item> Celcius </item>
+        <item> Kelvin</item>
+
+    </string-array>
+
+    <string-array name = "totemp">
+
+        <item> Fahrenheit </item>
+        <item> Celcius </item>
+        <item> Kelvin</item>
+
+    </string-array>
+    <string-array name = "fromforce">
+
+        <item> Dyne </item>
+        <item> Kilogram-Force </item>
+        <item> Kip</item>
+        <item> Newton</item>
+        <item> Meganewton</item>
+        <item> Pound-Force</item>
+        <item> Poundal</item>
+        <item> Sthene</item>
+        <item> Ton-Force[Metric]</item>
+
+    </string-array>
+
+    <string-array name = "toforce">
+
+        <item> Dyne </item>
+        <item> Kilogram-Force </item>
+        <item> Kip</item>
+        <item> Newton</item>
+        <item> Meganewton</item>
+        <item> Pound-Force</item>
+        <item> Poundal</item>
+        <item> Sthene</item>
+        <item> Ton-Force[Metric]</item>
+
+
+    </string-array>
+    <string-array name = "frompower">
+
+        <item> Attowatt </item>
+        <item> Calorie/Hour </item>
+        <item>Centiwatt </item>
+        <item>Erg/Hour </item>
+        <item> Gigawatt</item>
+        <item>Hectowatt </item>
+        <item>Horsepower[Metric] </item>
+        <item> Kilowatt</item>
+        <item> Megawatt</item>
+        <item>Watt </item>
+    </string-array>
+
+    <string-array name = "topower">
+        <item> Attowatt </item>
+        <item> Calorie/Hour </item>
+        <item>Centiwatt </item>
+        <item>Erg/Hour </item>
+        <item> Gigawatt</item>
+        <item>Hectowatt </item>
+        <item>Horsepower[Metric] </item>
+        <item> Kilowatt</item>
+        <item> Megawatt</item>
+        <item>Watt </item>
+
+    </string-array>
+    <string-array name = "fromweight">
+
+        <item>Milligram</item>
+        <item>Gram</item>
+        <item>Decagram </item>
+        <item>Kilogram </item>
+        <item>Metric tonne</item>
+        <item>Carat </item>
+        <item>Quintal</item>
+        <item>Atomic Mass Unit</item>
+        <item>Planck Mass</item>
+        <item>Ounce </item>
+        <item>Pound </item>
+        <item>Stone</item>
+        <item>US hundredweight</item>
+        <item>Imp. hundredweight</item>
+        <item>Short ton</item>
+        <item>Long ton</item>
+        <item>Grain</item>
+
+
+
+    </string-array>
+
+    <string-array name = "toweight">
+
+        <item>Milligram</item>
+        <item>Gram</item>
+        <item>Decagram </item>
+        <item>Kilogram </item>
+        <item>Metric tonne</item>
+        <item>Carat </item>
+        <item>Quintal</item>
+        <item>Atomic Mass Unit</item>
+        <item>Planck Mass</item>
+        <item>Ounce </item>
+        <item>Pound </item>
+        <item>Stone</item>
+        <item>US Hundredweight</item>
+        <item>Imp. Hundredweight</item>
+        <item>Short Ton</item>
+        <item>Long Ton</item>
+        <item>Grain</item>
+    </string-array>
+    <string-array name = "fromenergy">
+
+
+        <item> Joule </item>
+        <item> Kilojoule </item>
+        <item> Kilogram-meter</item>
+        <item> Watt-hour </item>
+        <item> kilowatt-hour </item>
+        <item> Erg </item>
+        <item> Calorie </item>
+        <item> Kilocalorie</item>
+        <item> Foot-Poundal</item>
+        <item> Inch-Pound Force </item>
+        <item> Foot-Pound Force </item>
+        <item> Horsepower-Hour </item>
+        <item> BTU </item>
+        <item> Electronvolt  </item>
+        <item> Hartree  </item>
+        <item> Rydberg   </item>
+
+
+    </string-array>
+
+    <string-array name = "toenergy">
+
+
+        <item> Joule </item>
+        <item> Kilojoule </item>
+        <item> Kilogram-meter</item>
+        <item> Watt-hour </item>
+        <item> kilowatt-hour </item>
+        <item> Erg </item>
+        <item> Calorie </item>
+        <item> Kilocalorie</item>
+        <item> Foot-Poundal</item>
+        <item> Inch-Pound Force </item>
+        <item> Foot-Pound Force </item>
+        <item> Horsepower-Hour </item>
+        <item> BTU </item>
+        <item> Electronvolt  </item>
+        <item> Hartree  </item>
+        <item> Rydberg   </item>
+
+    </string-array>
+    <string-array name = "frompressure">
+
+        <item> Pascal </item>
+        <item> Hectopascal </item>
+        <item> Kilopascal</item>
+        <item> Megapascal </item>
+        <item> Atmosphere </item>
+        <item> Torr</item>
+        <item> Millimeters of mercury </item>
+        <item> Psi </item>
+        <item> Newton per square millimeter</item>
+        <item> Kilogram per square meter </item>
+        <item> Bar </item>
+
+
+    </string-array>
+
+    <string-array name = "topressure">
+
+        <item> Pascal </item>
+        <item> Hectopascal </item>
+        <item> Kilopascal</item>
+        <item> Megapascal </item>
+        <item> Atmosphere </item>
+        <item> Torr</item>
+        <item> Millimeters of mercury </item>
+        <item> Psi </item>
+        <item> Newton per square millimeter</item>
+        <item> Kilogram per square meter </item>
+        <item> Bar </item>
+
+    </string-array>
+
+    <string-array name="random_imgs">
+        <item>@drawable/temperature</item>
+        <item>@drawable/force</item>
+        <item>@drawable/time</item>
+        <item>@drawable/powers</item>
+        <item>@drawable/setting</item>
+        <item>@drawable/pressures</item>
+        <item>@drawable/rules</item>
+        <item>@drawable/weight</item>
+        <item>@drawable/speed</item>
+
+        <item>@drawable/temperaturechange</item>
+        <item>@drawable/forcechange</item>
+        <item>@drawable/timechange</item>
+        <item>@drawable/powerchange</item>
+        <item>@drawable/settingschange</item>
+        <item>@drawable/pressurechange</item>
+        <item>@drawable/lengthchange</item>
+        <item>@drawable/weightchange</item>
+        <item>@drawable/speedchange</item>
+
+    </string-array>
+
+    <string-array name="language">
+
+        <item> English </item>
+        <item> Deutsch </item>
+        <item> Pусский </item>
+        <item> Türkçe </item>
+
+
+
+    </string-array>
+        <string name="title_activity_animationtips">Animationtips</string>
+        <string name="title_activity_settings">Settings</string>
+    <string name="goback">Go Back</string>
+
+
+</resources>
