@@ -110,27 +110,7 @@ public class main extends Activity {
             }
         }, DELAY);
 
-
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -138,10 +118,6 @@ public class main extends Activity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
-
-
-
-
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
